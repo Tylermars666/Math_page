@@ -5,6 +5,9 @@ function mostrarSisas(){
 
     textoEscrito("titulo_invisible_yes");
     textoEscrito("texto_invisible_yes");
+    for(i=1; i<=7; i++){
+        textoEscrito(String(i));
+    }
     
 
 }
@@ -13,8 +16,16 @@ function mostrarNonas(){
 
     document.getElementById("contenedor_visible").style.display = "none";
     document.getElementById("contenedor_no").style.display = "block";
+    document.getElementById("audio_gemidos").play();
+    textoEscrito("titulo_invisible_no");
 
 }
+
+
+
+
+
+
 
 function textoEscrito(identificador){
 
@@ -35,4 +46,3 @@ function textoEscrito(identificador){
 
 }
 
-  

@@ -43,15 +43,15 @@ h1{
 .titulo_invisible_yes{
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
     color: darkgreen;
     margin-bottom: 15px;
+    margin-left: 185px;
 }
 
 .texto_invisible_yes{
     font-weight: bold;
     color: darkgreen;
-    text-align: center;
+    margin-left: 225px;
     margin-bottom: 10px;
     font-size: 22px;
 }
@@ -86,15 +86,12 @@ h1{
 
 .lista_materias{
     color: darkgreen;
-}
-
-.lista_materias li{
     margin-left: 30px;
     margin-bottom: 15px;
     font-size: 18px;
     font-weight: bold;
-    
 }
+
 
 
 
@@ -163,7 +160,7 @@ h1{
     font-weight: bold;
     border-radius: 25px;
     border: 3px solid darkgreen;
-    padding: 10px 30px;
+    padding: 10px 50px;
     background:linear-gradient(to bottom, #00FF00,darkgreen);
     transition: transform 0.3s;
     box-shadow: 10px 10px 5px black;
@@ -184,7 +181,7 @@ h1{
     font-weight: bold;
     border-radius: 25px;
     border: 3px solid darkred;
-    padding: 10px 30px;
+    padding: 10px 50px;
     background:linear-gradient(to bottom, #FF0000,darkred);
     transition: transform 0.3s;
     box-shadow: 10px 10px 5px black;
