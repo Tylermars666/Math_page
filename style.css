@@ -25,16 +25,16 @@ h1{
 }
 
 .contenedor_main_visible{
-     /*DISPLAY NONE PROVISIONAL*/
+    display:none; /*DISPLAY NONE PROVISIONAL*/
     margin: 30px 0 25px 0;
     
 }
-/*--------------CONTENIDO INVISIBLE---------------*/
+/*--------------CONTENIDO INVISIBLE RESPUESTA SI---------------*/
 
 
 .contenedor_main_invisible_yes{
-    display:none;
-    margin: 15px;
+    display: none;
+    margin: 60px;
     padding: 10px;
     border: 3px solid #5f5f5f;
     background-color: black;
@@ -59,6 +59,7 @@ h1{
 .botones_mensaje{
 
     text-align: center;
+    margin: 25px 0 20px 0;
 }
 
 #telegram_boton{
@@ -89,10 +90,40 @@ h1{
 
 .lista_materias li{
     margin-left: 30px;
-    margin-bottom: 9px;
+    margin-bottom: 15px;
     font-size: 18px;
     font-weight: bold;
 }
+
+/*-----------CONTENIDO INVISIBLE RESPUESTA NO-----------*/
+
+.contenedor_main_invisible_no{
+    margin: 60px;
+    padding: 10px;
+    border: 3px solid #5f5f5f;
+    background-color: black;
+}
+
+.titulo_invisible_no{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: darkgreen;
+    margin-bottom: 15px;
+}
+
+.contenedor_trollface{
+    display: block;
+    text-align: center;
+}
+.trollface{
+    width: 300px;
+    margin: 25px;
+}
+
+
+
 /*^^^^^^^^^CONTENIDO INVISIBLE ARRIBA^^^^^^^*/
 
 
