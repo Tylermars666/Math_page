@@ -224,7 +224,7 @@ h1{
 @media only screen and (max-width:481px) {
 
     body{
-        width: 100%;
+        width: auto;
     }
 
     .contenedor_header{
@@ -253,10 +253,80 @@ h1{
         margin-bottom: 50px;
     }
 
+    #yes_button{
+        padding: 20px 50px 20px 50px;
+    }
+
+    #no_button{
+        padding: 20px 50px 20px 50px;
+    }
+
+    .contenedor_footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
 }
 
 
 /*--------------RESPONSIVE TABLET------------------*/
-@media only screen and (min-width: 769px) and (max-width: 1024px){
+@media only screen and (min-width: 765px) and (max-width: 1024px){
     
+    body{
+        width: auto;
+    }
+
+
+    .titulo_header{
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .contenedor_global{
+        margin: auto;
+    }
+
+    
+
+    .contenedor_main_visible{
+
+        margin:35px 0;
+        
+    }
+
+    #imagen_main{
+        width: 380px;
+    }
+
+    
+
+    .botones_main{
+        
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+
+    #yes_button{
+        border-radius: 60px;
+        padding: 30px 80px;
+        font-size: 25px;
+    }
+
+    #no_button{
+        border-radius: 60px;
+        padding: 30px 80px;
+        font-size: 25px;
+    }
+
+    .texto_footer{
+        font-size: 25px;
+    }
+    .copyright_footer{
+        font-size: 25px;
+    }
+
+    
+
 }
