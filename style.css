@@ -226,9 +226,6 @@ h1{
     body{
         width: auto;
     }
-
-
-
     .contenedor_header{
 
         margin-top: 30px;
@@ -327,13 +324,33 @@ h1{
         margin: auto;
     }
 
-    
-
-    .contenedor_main_visible{
-
+    .contenedor_main_visible{ /*DISPLAY PROVISIONAL.------*/
         margin:35px 0;
         
     }
+    
+    .contenedor_main_invisible_yes{ /*DISPLAY PROVISIONAL------*/
+
+        margin: 80px 0;
+    }
+
+    .titulo_invisible_yes{
+
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .texto_invisible_yes{
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .contenedor_main_invisible_no{
+
+        padding: 80px;
+    }
+
 
     #imagen_main{
         width: 380px;
