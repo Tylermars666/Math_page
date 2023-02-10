@@ -25,7 +25,7 @@ h1{
 }
 
 .contenedor_main_visible{
-    display:none; /*DISPLAY NONE PROVISIONAL*/
+    
     margin: 30px 0 25px 0;
     
 }
@@ -98,6 +98,7 @@ h1{
 /*-----------CONTENIDO INVISIBLE RESPUESTA NO-----------*/
 
 .contenedor_main_invisible_no{
+    display: none;
     margin: 60px;
     padding: 10px;
     border: 3px solid #5f5f5f;

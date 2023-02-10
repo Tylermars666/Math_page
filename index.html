@@ -23,20 +23,20 @@
                 </div>
             </header>
             <main>
-                <div class="contenedor_main_visible">
+                <div class="contenedor_main_visible" id="contenedor_visible">
                     <div class="imagen_main">
                         <img src="asado_con_mates.png" id="imagen_main">
                     </div>
                     <div class="botones_main">
                         <div class="yes_button">
-                            <input type="button" id="yes_button" value="Sisas">
+                            <input type="button" id="yes_button" value="Sisas" onclick="mostrarSisas()">
                         </div>
                         <div class="no_button">
-                            <input type="button" id="no_button" value="Nonas">
+                            <input type="button" id="no_button" value="Nonas" onclick="mostrarNonas()">
                         </div>
                     </div>
                 </div>
-                <div class="contenedor_main_invisible_yes">
+                <div class="contenedor_main_invisible_yes" id="contenedor_si">
                     <h2 class="titulo_invisible_yes">¡Escriba sin mente!</h2>
                     <div class="botones_mensaje">
                         <a href="https://api.whatsapp.com/send?phone=+573207368522&text=Hola,%20puedes%20ayudarme?"><img src="whatsapp_boton.png" id="whatsapp_boton"></a>
@@ -53,7 +53,7 @@
                         <li>>Programación I, II y III</li>
                     </ul>
                 </div>
-                <div class="contenedor_main_invisible_no">
+                <div class="contenedor_main_invisible_no" id="contenedor_no">
                     <h2 class="titulo_invisible_no">Respuesta incorrecta</h2>
                     <div class="contenedor_trollface">
                         <img src="trollface.png" class="trollface">
