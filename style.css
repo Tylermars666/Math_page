@@ -221,16 +221,55 @@ h1{
 
 /*-------------RESPONSIVE CELULAR------------------*/
 
-@media only screen and (max-width:481px) {
+@media only screen and (max-width:720px) {
 
     body{
         width: auto;
     }
 
+
+
     .contenedor_header{
 
         margin-top: 30px;
     }
+
+    .contenedor_main_invisible_yes{ 
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .titulo_invisible_yes{
+        margin-left: 0;
+        text-align: center;
+        
+    }
+
+    .texto_invisible_yes{
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .lista_materias{
+
+        margin-left: 10px;
+    }
+
+    .contenedor_main_invisible_no{ 
+
+        margin: 70px auto 70px auto;
+    }
+
+    .trollface{
+
+        width: 250px;
+    }
+
+
 
     .contenedor_global{
 
