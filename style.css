@@ -226,6 +226,12 @@ h1{
     body{
         width: auto;
     }
+
+    .contenedor_global{
+        padding-bottom: 30px;
+    }
+
+    
     .contenedor_header{
 
         margin-top: 30px;
@@ -275,7 +281,7 @@ h1{
 
     .imagen_main{
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 35px;
 
     }
 
@@ -286,20 +292,21 @@ h1{
 
     .botones_main{
 
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     #yes_button{
-        padding: 20px 50px 20px 50px;
+        padding: 20px 40px 20px 40px;
     }
 
     #no_button{
-        padding: 20px 50px 20px 50px;
+        padding: 20px 40px 20px 40px;
     }
 
     .contenedor_footer{
         padding-left: 15px;
         padding-right: 15px;
+
     }
 
 }
